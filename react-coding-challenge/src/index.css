@@ -1,0 +1,152 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.w100 {
+    font-weight: 100;
+}
+.w200 {
+    font-weight: 200;
+}
+.w300 {
+    font-weight: 300;
+}
+.w400 {
+    font-weight: 400;
+}
+.w500 {
+    font-weight: 500;
+}
+.w600 {
+    font-weight: 600;
+}
+.w700 {
+    font-weight: 700;
+}
+.w800 {
+    font-weight: 800;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100%;
+}
+
+.button {
+    background-color: #54EBC8;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px #888888;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 100px;
+    text-align: center;
+    font-size: .9em;
+}
+.button:hover {
+    background-color: #5CFFD9;
+}
+.button:active {
+    background-color: #4BD1B2;
+}
+
+.button-container {
+    margin-top: 72px;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.margin-top {
+    margin-top: 154px;
+}
+
+.message {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px #888888;
+}
+
+.error {
+    background-color: #F56236;
+}
+
+.warning {
+    background-color: #FCE788;
+}
+
+.info {
+    background-color: #88FCA3;
+}
+
+.column {
+    flex: 33.33%;
+	height: 100%;
+	padding: 10px;
+}
+
+.main-container {
+    height: 95vh;
+    padding-left: 64px;
+    padding-right: 64px;
+    display: flex; 
+    flex-direction: row;
+}
+
+.message-list-container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.message-list {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: aboslute;
+    bottom: 0;
+    left: 0;
+}
+
+.column-header {
+    margin-bottom: 0px;
+}
+
+.count-text {
+    margin-top: 0px;
+}
+
+.message-text-container {
+    height: 100%;
+    width: 75%;
+    box-sizing: border-box;
+    padding-bottom: auto;
+}
+
+.clear-button {
+    height: 100%;
+    width: 25%;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+.clear-button:hover {
+    color: #696969;
+}
+.clear-button:active {
+    color: #000000;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.2em;
+}
